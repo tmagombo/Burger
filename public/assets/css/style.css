@@ -1,0 +1,72 @@
+.col {
+    float: left;
+    width: 25%;
+    height: 275px;
+}
+.midCol{
+    float: left;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    height: 25px;
+}
+
+li {
+    margin: 5px;
+    width: 99%;
+    background: darkgreen;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+
+  ul{
+      padding: 0;
+      width: 100%;
+  }
+
+  button {
+    background: lightskyblue;
+    border-color: black;
+    font-size: 12pt;
+    font-weight: bold
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: blue;
+  }
+  
+
+  .form-group {
+    margin-bottom: 5px;
+    font-size: 20.2pt;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .form-group1 {
+    margin-bottom: 5px;
+    font-size: 18pt;
+  }
+  
+  img{
+      height: 300px;
+      width: 300px;
+      padding-left: 10pt;
+      padding-top: 10pt;
+  }
+
+  input{
+      font-size: 15pt;
+  }
