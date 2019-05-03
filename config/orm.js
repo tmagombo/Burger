@@ -23,7 +23,9 @@ function printQuestionMarks(num) {
         arr.push(key + "=" + value);
       }
     }
-};
+    console.log(arr);
+    return arr
+  };
 
 var orm = {
     selectAll: function(tableInput, cb) {
@@ -56,11 +58,11 @@ var orm = {
       });
     },
     // An example of objColVals would be {name: panther, sleepy: true}
-    updateOne: function(table, objColVals, condition, cb) {
+    updateOne: function(table, objCol, condition, cb) {
       var queryString = "UPDATE " + table;
   
       queryString += " SET ";
-      queryString += objToSql(objColVals);
+      queryString += objToSql(objCol);
       queryString += " WHERE ";
       queryString += condition;
   

@@ -7,13 +7,13 @@ $(function() {
       var id = $(this).data("id");
       var newDevour = $(this).data("newdevour");
   
-      var devourState = {
+      var newdevourState = {
         devour: newDevour
       };
   
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
-        data: devourState
+        data: newdevourState
       }).then(
         function() {
           console.log("changed devour state to", newDevour);
